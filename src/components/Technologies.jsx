@@ -4,7 +4,7 @@ export default function Tech() {
   return (
     <>
     <div>
-    Tech
+    Techie Tech Techerson
     </div>
     </>
   );

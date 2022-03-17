@@ -12,7 +12,7 @@ export default function About() {
           tabIndex="0"
         >
           <div id="scrollspyHeading1">
-            <p className="text-start fs-4 fw-light">
+            <p className="text-start fs-4 fw-light p-4 m-4">
               I am a recent graduate of the UC Davis Full-Stack Web Development program. Although my 8+ years of professional experience is in finance and human resources, those industries introduced me to my love for code. I'm a passionate problem solver and aim to create technology that can help solve the smallest problems. I also love
               musicals, cooking, travel gear 🧳 (as well as traveling), and sci-fi movies/shows.
             </p>

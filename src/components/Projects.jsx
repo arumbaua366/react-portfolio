@@ -3,9 +3,9 @@ import React from 'react';
 export default function Projects() {
     return(
 <>
-<div id="projects" className="section scrollspy h-100 mx-5 align-items-center">
-<div className="card mb-3">
-  <div className="row no-gutters">
+<div id="projects" className="container-fluid section scrollspy h-100 p-4 m-4">
+<div className="container-fluid card mb-4">
+  <div className="row g-0">
     <div className="col-md-4">
       <img src="..." className="card-img" alt="..." />
     </div>
@@ -18,8 +18,8 @@ export default function Projects() {
     </div>
   </div>
 </div>
-<div className="card mb-3">
-  <div className="row no-gutters">
+<div className="container-fluid card mb-4">
+  <div className="row g-0">
     <div className="col-md-4">
       <img src="..." className="card-img" alt="..." />
     </div>
@@ -32,8 +32,8 @@ export default function Projects() {
     </div>
   </div>
 </div>
-<div className="card mb-3">
-  <div className="row no-gutters">
+<div className="container-fluid card mb-4">
+  <div className="row g-0">
     <div className="col-md-4">
       <img src="..." className="card-img" alt="..." />
     </div>
@@ -46,8 +46,8 @@ export default function Projects() {
     </div>
   </div>
 </div>
-<div className="card mb-3">
-  <div className="row no-gutters">
+<div className="container-fluid card mb-4">
+  <div className="row g-0">
     <div className="col-md-4">
       <img src="..." className="card-img" alt="..." />
     </div>

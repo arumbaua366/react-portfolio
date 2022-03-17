@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
     return(
 <>
-<div>
+<div id="projects" className="section scrollspy h-100 mx-5 align-items-center">
 <div className="card mb-3">
   <div className="row no-gutters">
     <div className="col-md-4">

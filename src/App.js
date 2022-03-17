@@ -10,7 +10,7 @@ import Tech from "./components/Technologies";
 export default function MyApp() {
   return (
     <>
-      <div class="row">
+      <div className="row">
         <Nav />
         <Home />
         <About />

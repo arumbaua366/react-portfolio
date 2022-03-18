@@ -3,8 +3,8 @@ import React from "react";
 export default function Resume() {
   return (
     <>
-      <div id="resume" className="section scrollspy p-4 m-4">
-        <h1 className="display-2">Resume</h1>
+      <div id="resume" className="text-white section scrollspy pt-4 m-4">
+      <h1 className="text-white text-center display-5 pt-4 m-5">resume.</h1>
         <p>
           (650) 676-4030  |  Bay Area, CA  |{"  "}
            <a
@@ -77,7 +77,7 @@ command line, Heroku, Netlify, Vercel</p>
         <ul>
           <li>Coordinate with internal team, external departments, and vendors to overhaul 50+ projects to new
 item bank application</li>
-          <li>educe time needed for multi-project candidate processing tasks by 50%</li>
+          <li>Reduce time needed for multi-project candidate processing tasks by 50%</li>
           <li>Develop application user guides for preparing, deploying, and scoring tests for all projects</li>
           <li>Partnered with vendor to transition four major projects to computer-based tests</li>
           <li>Analyzed complex score data for client review to increase candidate performance on tests</li>

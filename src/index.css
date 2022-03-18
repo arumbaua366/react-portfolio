@@ -1,5 +1,8 @@
 body {
+  overflow-x: hidden;
   margin: 0;
+  padding: 0;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +13,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.name:hover {
+  color: rgb(203, 246, 242);
+  font-style: italic;
+}
+
+.work:hover {
+  color:#fff;
+  font-weight: bolder;
+}
+
+.scroll-nav {
+  background-color: #fff;
+  animation: fadeInDownBig;
+  animation-duration: 300ms;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+@media only screen and (max-width: 990px) {
+  #navMain {
+      text-align: center;
+      background-color: #fff;
+      padding: 0 0;
+      margin: 15px 0;
+      border-radius: 6px;
+  }
 }

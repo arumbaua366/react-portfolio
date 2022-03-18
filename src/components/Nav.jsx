@@ -23,7 +23,6 @@ export default function Nav() {
   return (
     <>
       <nav className={`navbar navbar-expand-lg sticky-top navbar-dark bg-gradient animate__animated animate__fadeIn animate__faster bg-secondary px-3 ${scrollState}`}>
-      {/* <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-gradient animate__animated animate__fadeIn animate__faster bg-secondary px-3"> */}
         <div className="container">
           <a className="navbar-brand" href="#top">
             <img src={logo} alt="my-logo" height="50" width="50" />
@@ -42,7 +41,6 @@ export default function Nav() {
           <div className="collapse navbar-collapse bg-secondary" id="navMain">
             <ul className="nav nav-pills">
               <li className="nav-item" onClick={collapse}>
-              {/* <li className="nav-item"> */}
                 <a className="text-white nav-link" href="#about">
                   About
                 </a>

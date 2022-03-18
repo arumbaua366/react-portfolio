@@ -1,6 +1,5 @@
 import React from "react";
 import "animate.css";
-import profilepic from "../assets/img/profilepic.JPG"
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
             className="scrollspy-example"
             tabIndex="0"
           >
-              <img src={profilepic} className="rounded mx-auto d-block" alt="profile" />
               <h1 className="text-uppercase text-center display-2 animate__animated animate__fadeIn">
                 Andrea Rumbaua
               </h1>

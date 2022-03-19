@@ -1,10 +1,9 @@
 # React Portfolio
-![alt text](/src/assets/img/portfolioss.png)
-## About
-- A personal React portfolio using 
 
-## Features
--
+![portfoliogif](/src/assets/img/portfoliogif1.gif)
+
+## About
+- A personal porfolio built with React using Bootstrap for styling and Animate.css for text animation.
 
 ## Technologies
 - HTML

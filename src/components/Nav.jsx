@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/img/ar-logos_black.png";
 import profilePic from "../assets/img/profilepic.JPG";
+import Resume from "../assets/pdf/ar-resume.pdf"
 
 export default function Nav() {
   const [scrollState, setScrollState] = React.useState("");
@@ -20,6 +21,7 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [scrollState]);
 
+  
   return (
     <>
       <nav className={`navbar navbar-expand-sm sticky-top navbar-light bg-gradient animate__animated animate__fadeIn animate__faster bs-bg-opacity px-3 ${scrollState}`}>
@@ -56,7 +58,7 @@ export default function Nav() {
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
-                <a className="nav-link" href="#resume">
+                <a className="nav-link" href={Resume} target="_blank" rel="noreferrer">
                   Resume
                 </a>
               </li>
@@ -89,7 +91,7 @@ export default function Nav() {
               </p>
               <div className="d-flex pt-4">
                 <a
-                  className="work btn border-dark btn-lg text-uppercase mx-auto"
+                  className="work btn border border-dark btn-lg text-uppercase mx-auto"
                   href="#projects"
                   role="button"
                 >

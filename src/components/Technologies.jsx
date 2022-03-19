@@ -1,97 +1,78 @@
 import React from "react";
+import cssImage from "../assets/icons/css.png";
+import htmlImage from "../assets/icons/html.png";
+import jsImage from "../assets/icons/javascript.png";
+import mongodbImage from "../assets/icons/mongodb.png";
+import mysqlImage from "../assets/icons/mysql.png";
+import nextImage from "../assets/icons/nextjs.png";
+import nodeImage from "../assets/icons/node.png";
+import reactImage from "../assets/icons/react.png";
 
 export default function Tech() {
   return (
     <>
     {/* <div id="tech" className="section scrollspy p-4 m-4">
     <h1 classNameName="text-center display-5 p-4 m-5">technologies.</h1> */}
-    <div className="container">
+    <div id="tech" className="section scrollspy p-4 m-4">
+        <div className="container">
               <div className="row">
                   <div className="col-lg-8 mx-auto">
-                      <h1 className="text-black mb-4">technologies.</h1>
+                      <h1 className="text-center display-5 text-black mb-4">technologies.</h1>
                       <div className="technology-list">
                         <div className="row">
 
                           <div className="col-md-6 col-lg-4">
                             <div className="feature-block">
-                              <img src="assets/img/icons/javascript.png" alt="img" className="img-fluid" />
+                              <img src={jsImage} alt="img" className="img-fluid" />
                               <h5>JavaScript</h5>
                             </div>
                           </div>
-                  
+
                           <div className="col-md-6 col-lg-4">
                             <div className="feature-block">
-                              <img src="assets/img/icons/react.png" alt="img" className="img-fluid" />
-                              <h5>React</h5>
-                            </div>
-                          </div>
-                  
-                          <div className="col-md-6 col-lg-4">
-                            <div className="feature-block">
-                              <img src="assets/img/icons/redux.png" alt="img" className="img-fluid" />
-                              <h5>Redux</h5>
-                            </div>
-                          </div>
-                                    
-                          <div className="col-md-6 col-lg-4">
-                            <div className="feature-block">
-                              <img src="assets/img/icons/golang.png" alt="img" className="img-fluid" />
-                              <h5>Golang</h5>
-                            </div>
-                          </div>
-                  
-                          <div className="col-md-6 col-lg-4">
-                            <div className="feature-block">
-                              <img src="assets/img/icons/node.png" alt="img" className="img-fluid" />
-                              <h5>Node.js</h5>
-                            </div>
-                          </div>
-                  
-                          <div className="col-md-6 col-lg-4">
-                            <div className="feature-block">
-                              <img src="assets/img/icons/ruby.png" alt="img" className="img-fluid" />
-                              <h5>Ruby</h5>
-                            </div>
-                          </div>
-                  
-                          <div className="col-md-6 col-lg-4">
-                            <div className="feature-block">
-                              <img src="assets/img/icons/rails.png" alt="img" className="img-fluid" />
-                              <h5>Ruby on Rails</h5>
-                            </div>
-                          </div>
-                  
-                          <div className="col-md-6 col-lg-4">
-                            <div className="feature-block">
-                              <img src="assets/img/icons/html.png" alt="img" className="img-fluid" />
+                              <img src={htmlImage} alt="img" className="img-fluid" />
                               <h5>HTML</h5>
                             </div>
                           </div>
-                  
+
                           <div className="col-md-6 col-lg-4">
                             <div className="feature-block">
-                              <img src="assets/img/icons/css.png" alt="img" className="img-fluid" />
+                              <img src={cssImage} alt="img" className="img-fluid" />
                               <h5>CSS</h5>
                             </div>
                           </div>
                   
                           <div className="col-md-6 col-lg-4">
                             <div className="feature-block">
-                              <img src="assets/img/icons/postgresql.png" alt="img" className="img-fluid" />
-                              <h5>PostgreSQL</h5>
+                              <img src={reactImage} alt="img" className="img-fluid" />
+                              <h5>React</h5>
                             </div>
                           </div>
                   
                           <div className="col-md-6 col-lg-4">
                             <div className="feature-block">
-                              <img src="assets/img/icons/mysql.png" alt="img" className="img-fluid" />
+                              <img src={nextImage} alt="img" className="img-fluid" />
+                              <h5>Next.js</h5>
+                            </div>
+                          </div>
+                  
+                          <div className="col-md-6 col-lg-4">
+                            <div className="feature-block">
+                              <img src={nodeImage} alt="img" className="img-fluid" />
+                              <h5>Node.js</h5>
+                            </div>
+                          </div>
+                  
+                          <div className="col-md-6 col-lg-4">
+                            <div className="feature-block">
+                              <img src={mysqlImage} alt="img" className="img-fluid" />
                               <h5>MySQL</h5>
                             </div>
                           </div>
                   
                           <div className="col-md-6 col-lg-4">
                             <div className="feature-block">
-                              <img src="assets/img/icons/mongodb.png" alt="img" className="img-fluid" />
+                              <img src={mongodbImage} alt="img" className="img-fluid" />
                               <h5>MongoDB</h5>
                             </div>
                           </div>
@@ -99,6 +80,7 @@ export default function Tech() {
                         </div>
                       </div>
                   </div>
+              </div>
               </div>
           </div>
     </>

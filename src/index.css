@@ -19,6 +19,11 @@ code {
     monospace;
 }
 
+.feature-block {
+  margin: 25px;
+  padding-bottom: 20px;
+}
+
 .name:hover {
   color: rgba(63, 67, 101, 0.964);
   font-family: 'Open Sans', sans-serif;

@@ -3,7 +3,6 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
-import Resume from "./components/Resume";
 import Tech from "./components/Technologies";
 import background from "./assets/img/background.jpg"
 
@@ -13,7 +12,7 @@ export default function MyApp() {
     <div style={{ 
       backgroundImage: `url(${background})`,
       backgroundRepeat: "no-repeat",
-      backgroundSize: "auto",
+      backgroundSize: "cover",
       height: "auto",
       width: "100vw",
       }}>
@@ -21,7 +20,6 @@ export default function MyApp() {
         <About />
         <Tech />
         <Projects />
-        <Resume />
         <Footer />
        </div>
     </>

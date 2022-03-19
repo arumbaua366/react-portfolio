@@ -7,10 +7,17 @@
 -
 
 ## Technologies
-- JavaScript, HTML, CSS, React, Bootstrap, Animate.css
+- HTML
+- CSS
+- React
+- Bootstrap
+- Animate.css
 
 ## Link
 [Deployed site]()
+
+## Authors
+- [Andrea Rumbaua](https://github.com/arumbaua366)
 
 ## Future Developments
 - Add Next.js blog link when it is completed.

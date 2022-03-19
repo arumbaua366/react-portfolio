@@ -1,5 +1,5 @@
 # React Portfolio
-![alt text](imagelinkhere)
+![alt text](/src/assets/img/portfolioss.png)
 ## About
 - A personal React portfolio using 
 

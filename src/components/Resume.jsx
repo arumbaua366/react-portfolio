@@ -3,9 +3,9 @@ import React from "react";
 export default function Resume() {
   return (
     <>
-      <div id="resume" className="text-white section scrollspy pt-4 m-4">
-      <h1 className="text-white text-center display-5 pt-4 m-5">resume.</h1>
-        <p>
+      <div id="resume" className="section scrollspy px-4 mx-4 border border-secondary rounded">
+      <h1 className="text-center display-5 pt-4 m-5">resume.</h1>
+        <p className="text-center">
           (650) 676-4030  |  Bay Area, CA  |{"  "}
            <a
             href="mailto: andrea.rumbaua@gmail.com"
@@ -39,7 +39,7 @@ export default function Resume() {
             Medium
           </a>
         </p>
-        <h3>PROJECTS</h3>
+        <h4 className="text-center">PROJECTS</h4>
         <p>Weather Dashboard - GitHub Repo  |  Deployed Site</p>
         <p>Technologies: JavaScript, HTML, CSS, Bootstrap, OpenWeather API, Netlify</p>
         <ul>
@@ -67,13 +67,13 @@ export default function Resume() {
           <li>Bullet point</li>
           <li>Bullet point</li>
         </ul>
-        <h3>TECHNICAL SKILLS</h3>
+        <h4 className="text-center">TECHNICAL SKILLS</h4>
         <p>JavaScript, React.js, Next.js, HTML, CSS, TailwindCSS, Bootstrap, Node.js, Express, MongoDB, MySQL, Git,
 command line, Heroku, Netlify, Vercel</p>
-        <h3>EXPERIENCE</h3>
+<h4 className="text-center">EXPERIENCE</h4>
         <p>TEST DEVELOPMENT TECHNICIAN</p>
         <p>CPS HR CONSULTING  |  Remote</p>
-        <p>2016 - Present</p>
+        <p className="text-end">2016 - Present</p>
         <ul>
           <li>Coordinate with internal team, external departments, and vendors to overhaul 50+ projects to new
 item bank application</li>
@@ -91,7 +91,7 @@ item bank application</li>
           <li>Developed highly detailed, customized financial reports for 100+ clients</li>
           <li>Supported advisors with maintaining/creating relationships with new and existing clients</li>
         </ul>
-        <h3>EDUCATION</h3>
+        <h4 className="text-center">EDUCATION</h4>
         <p>University of California, Davis – Full Stack Software Engineering Program</p>
         <p>2020</p>
         <p>California State University, Sacramento – B.S. Healthcare Administration/Gerontology</p>

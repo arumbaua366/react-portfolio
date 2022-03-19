@@ -10,23 +10,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a.nav-link {
+  color: black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 .name:hover {
-  color: rgb(203, 246, 242);
-  font-style: italic;
+  color: rgba(63, 67, 101, 0.964);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 
 .work:hover {
-  color:#fff;
+  color:rgb(29, 29, 29);
   font-weight: bolder;
 }
 
 .scroll-nav {
-  background-color: #fff;
+  background-color: rgb(203, 246, 254);
+  opacity: 90%;
   animation: fadeInDownBig;
   animation-duration: 300ms;
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
@@ -35,7 +41,6 @@ code {
 @media only screen and (max-width: 990px) {
   #navMain {
       text-align: center;
-      background-color: #fff;
       padding: 0 0;
       margin: 15px 0;
       border-radius: 6px;

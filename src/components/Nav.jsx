@@ -22,7 +22,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg sticky-top navbar-dark bg-gradient animate__animated animate__fadeIn animate__faster bg-secondary px-3 ${scrollState}`}>
+      <nav className={`navbar navbar-expand-sm sticky-top navbar-light bg-gradient animate__animated animate__fadeIn animate__faster bs-bg-opacity px-3 ${scrollState}`}>
         <div className="container">
           <a className="navbar-brand" href="#top">
             <img src={logo} alt="my-logo" height="50" width="50" />
@@ -38,30 +38,30 @@ export default function Nav() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse bg-secondary" id="navMain">
+          <div className="collapse navbar-collapse" id="navMain">
             <ul className="nav nav-pills">
               <li className="nav-item" onClick={collapse}>
-                <a className="text-white nav-link" href="#about">
+                <a className="nav-link" href="#about">
                   About
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
-                <a className="text-white nav-link" href="#tech">
+                <a className="nav-link" href="#tech">
                   Technologies
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
-                <a className="text-white nav-link" href="#projects">
+                <a className="nav-link" href="#projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
-                <a className="text-white nav-link" href="#resume">
+                <a className="nav-link" href="#resume">
                   Resume
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
-                <a className="text-white nav-link" href="#contact">
+                <a className="nav-link" href="#contact">
                   Contact Me
                 </a>
               </li>
@@ -69,8 +69,8 @@ export default function Nav() {
           </div>
         </div>
       </nav>
-      <div  id="top" className="header bg pt-5 m-5">
-        <div className="container text-white mt-4">
+      <div id="top" className="header bg pt-5 m-5">
+        <div className="container mt-5">
           <div className="row pb-5">
             <div className="col-12">
               <img
@@ -80,16 +80,16 @@ export default function Nav() {
                 height="325"
                 width="325"
               />
-              <h1 className="display-5 text-center pt-5">
+              <h1 className="display-5 text-center pt-3">
                 My name is{" "}
                 <span className="name text-uppercase">Andrea Rumbaua.</span>
               </h1>
-              <h1 className="display-5 text-center pt-4">
+              <p className="display-5 text-center pt-2">
                 I'm a Full-Stack Developer based in the San Francisco Bay Area.
-              </h1>
-              <div className="d-flex pt-5">
+              </p>
+              <div className="d-flex pt-4">
                 <a
-                  className="work btn text-white border-white btn-lg text-uppercase mx-auto"
+                  className="work btn border-dark btn-lg text-uppercase mx-auto"
                   href="#projects"
                   role="button"
                 >

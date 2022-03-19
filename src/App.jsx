@@ -10,7 +10,13 @@ import background from "./assets/img/background.jpg"
 export default function MyApp() {
   return (
     <>
-    <div style={{ backgroundImage: `url(${background})`}}>
+    <div style={{ 
+      backgroundImage: `url(${background})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "auto",
+      height: "auto",
+      width: "100vw",
+      }}>
         <Nav />
         <About />
         <Tech />

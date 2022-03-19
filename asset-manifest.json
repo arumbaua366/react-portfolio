@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/arumbaua366.github.io/react-portfolio/static/css/main.8512c80c.css",
+    "main.js": "/arumbaua366.github.io/react-portfolio/static/js/main.0a7df7b5.js",
+    "static/media/background.jpg": "/arumbaua366.github.io/react-portfolio/static/media/background.f70cbaa8487431da44df.jpg",
+    "static/media/ar-resume.pdf": "/arumbaua366.github.io/react-portfolio/static/media/ar-resume.da754398563d14640fb7.pdf",
+    "static/media/react.png": "/arumbaua366.github.io/react-portfolio/static/media/react.60d8ea84b68a541cbb61.png",
+    "static/media/ar-logos_black.png": "/arumbaua366.github.io/react-portfolio/static/media/ar-logos_black.eb3132b3d2f610e9a170.png",
+    "static/media/mysql.png": "/arumbaua366.github.io/react-portfolio/static/media/mysql.bb8b30e88adf9019ffb1.png",
+    "static/media/profilepic.JPG": "/arumbaua366.github.io/react-portfolio/static/media/profilepic.770b815176a03cb7f437.JPG",
+    "index.html": "/arumbaua366.github.io/react-portfolio/index.html",
+    "main.8512c80c.css.map": "/arumbaua366.github.io/react-portfolio/static/css/main.8512c80c.css.map",
+    "main.0a7df7b5.js.map": "/arumbaua366.github.io/react-portfolio/static/js/main.0a7df7b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8512c80c.css",
+    "static/js/main.0a7df7b5.js"
+  ]
+}

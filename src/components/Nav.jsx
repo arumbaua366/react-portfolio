@@ -74,19 +74,19 @@ export default function Nav() {
       <div id="top" className="header bg pt-5 m-5">
         <div className="container mt-5">
           <div className="row pb-5">
-            <div className="col-12">
+            <div className="col-12 position-relative">
               <img
                 src={profilePic}
-                className="rounded-circle mx-auto d-block p-3 animate__animated animate__fadeIn animate__delay-0.5s"
+                className="img-fluid rounded-circle mx-auto d-block p-3 animate__animated animate__fadeIn animate__delay-0.5s"
                 alt="profile"
-                height="325"
-                width="325"
+                height="auto"
+                width="auto"
               />
-              <h1 className="display-5 text-center pt-3 animate__animated animate__fadeIn animate__delay-1s">
+              <h1 className="display-6 text-center pt-3 animate__animated animate__fadeIn animate__delay-1s">
                 My name is{" "}
                 <span className="name text-uppercase">Andrea Rumbaua.</span>
               </h1>
-              <p className="display-5 text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
+              <p className="display-6 text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
                 I'm a Full-Stack Developer based in the San Francisco Bay Area.
               </p>
               <div className="d-flex pt-4">

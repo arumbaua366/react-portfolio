@@ -1,5 +1,5 @@
 body {
-  background-image: url(./assets/img/background00000.jpg);
+  background-image: url(./assets/img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 100%;
@@ -14,23 +14,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.title {
-  font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 a.nav-link {
   color: black;
+}
+
+.title,
+.card-link {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.title {
+  font-weight: bold;
 }
 
 .card-link {
   height: 100%;
   width: 100%;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
   font-size: large;
   text-decoration: none;
   color: black;
-  padding: 1em 1.5em;
 }
 
 .card-link:hover {
@@ -39,6 +41,7 @@ a.nav-link {
 
 .card-text {
   font-size: 20px;
+  margin: 1em 1em
 }
 
 code {
@@ -77,6 +80,10 @@ code {
   animation: fadeInDownBig;
   animation-duration: 300ms;
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+#about {
+  opacity: 80%;
 }
 
 @media only screen and (max-width: 990px) {

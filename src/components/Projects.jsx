@@ -24,13 +24,13 @@ export default function Projects() {
                   <a
                     href="https://github.com/arumbaua366/ar_weather-dash"
                     className="card-link"
-                  > <i className="icon-github-sign icon-4x"></i>
+                  > <i className="icon-github-sign icon-2x"></i>
                   </a>
                   <a
                     href="https://arweatherdash.netlify.app/"
                     className="card-link"
                   >
-                  <i className="icon-external-link-sign icon-4x"></i>
+                  <i className="icon-external-link-sign icon-2x"></i>
                   </a>
                 </div>
               </div>
@@ -50,10 +50,10 @@ export default function Projects() {
                   <a
                     href="https://github.com/arumbaua366/quizpy"
                     className="card-link"
-                  >                  <i className="icon-github-sign icon-4x"></i>
+                  >                  <i className="icon-github-sign icon-2x"></i>
                   </a>
                   <a href="https://quizpy.netlify.app/" className="card-link">
-                  <i className="icon-external-link-sign icon-4x"></i>
+                  <i className="icon-external-link-sign icon-2x"></i>
                   </a>
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default function Projects() {
                 </p>
                 <div className="card-body">
                   <a href="https://github.com/arumbaua366/readme_generator" className="card-link">
-                  <i className="icon-github-sign icon-4x"></i>
+                  <i className="icon-github-sign icon-2x"></i>
                   </a>
                 </div>
               </div>

@@ -49,7 +49,7 @@ export default function Nav() {
               </li>
               <li className="nav-item" onClick={collapse}>
                 <a className="nav-link" href="#tech">
-                  technologies
+                  tech
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
@@ -64,7 +64,7 @@ export default function Nav() {
               </li>
               <li className="nav-item" onClick={collapse}>
                 <a className="nav-link" href="#contact">
-                  contact me
+                  contact
                 </a>
               </li>
             </ul>

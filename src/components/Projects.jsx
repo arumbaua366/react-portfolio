@@ -7,15 +7,15 @@ export default function Projects() {
   return (
     <>
       <div id="projects" className="section scrollspy h-100 p-5 m-5">
-        <h1 className="text-center display-5 p-4 m-5">projects.</h1>
+        <h1 className="title text-center display-5 p-4 m-5">projects.</h1>
         <div className="container-fluid bg-transparent card mb-4">
           <div className="row g-0">
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-6 col-xs-12 img-thumbnail bg-transparent">
               <img src={projectOne} className="card-img" alt="weatherdashimg" />
             </div>
             <div className="col-md-6 col-xs-12">
               <div className="card-body">
-                <h5 className="card-title">Weather Dashboard</h5>
+                <h3 className="card-title text-center">Weather Dashboard</h3>
                 <p className="card-text">
                   Weather search application that displays current weather data
                   as well as five-day forecast data.
@@ -24,14 +24,13 @@ export default function Projects() {
                   <a
                     href="https://github.com/arumbaua366/ar_weather-dash"
                     className="card-link"
-                  >
-                    GitHub Repo
+                  > <i className="icon-github-sign icon-4x"></i>
                   </a>
                   <a
                     href="https://arweatherdash.netlify.app/"
                     className="card-link"
                   >
-                    Site
+                  <i className="icon-external-link-sign icon-4x"></i>
                   </a>
                 </div>
               </div>
@@ -42,7 +41,7 @@ export default function Projects() {
           <div className="row g-0">
           <div className="col-md-6 col-xs-12">
               <div className="card-body">
-                <h5 className="card-title">Quizpy!</h5>
+                <h3 className="card-title text-center">Quizpy!</h3>
                 <p className="card-text">
                   Medium difficulty quiz game application that dynamically
                   displays 10 multiple-choice questions.
@@ -51,16 +50,15 @@ export default function Projects() {
                   <a
                     href="https://github.com/arumbaua366/quizpy"
                     className="card-link"
-                  >
-                    GitHub Repo
+                  >                  <i className="icon-github-sign icon-4x"></i>
                   </a>
                   <a href="https://quizpy.netlify.app/" className="card-link">
-                    Site
+                  <i className="icon-external-link-sign icon-4x"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-6 col-xs-12 img-thumbnail bg-transparent">
               <img
                 src={projectTwo}
                 className="card-img"
@@ -71,7 +69,7 @@ export default function Projects() {
         </div>
         <div className="container-fluid bg-transparent card mb-4">
           <div className="row g-0">
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-6 col-xs-12 img-thumbnail bg-transparent">
               <img
                 src={projectThree}
                 className="card-img"
@@ -80,14 +78,14 @@ export default function Projects() {
             </div>
             <div className="col-md-6 col-xs-12">
               <div className="card-body">
-                <h5 className="card-title">ReadME Generator</h5>
+                <h3 className="card-title text-center">ReadME Generator</h3>
                 <p className="card-text">
                   Command line application that dynamically generates readMEs
                   for GitHub projects.
                 </p>
                 <div className="card-body">
                   <a href="https://github.com/arumbaua366/readme_generator" className="card-link">
-                    GitHub Repo
+                  <i className="icon-github-sign icon-4x"></i>
                   </a>
                 </div>
               </div>

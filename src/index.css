@@ -1,4 +1,8 @@
 body {
+  background-image: url(./assets/img/background00000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -10,8 +14,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.title {
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 a.nav-link {
   color: black;
+}
+
+.card-link {
+  height: 100%;
+  width: 100%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  padding: 1em 1.5em;
+}
+
+.card-link:hover {
+  cursor: pointer;
+}
+
+.card-text {
+  font-size: 20px;
 }
 
 code {
@@ -30,9 +57,18 @@ code {
   font-family: 'Space Mono', monospace;
 }
 
+.work {
+  font-size: 20px;
+  padding: 1em 1.5em;
+}
 .work:hover {
   color:rgb(29, 29, 29);
   font-weight: bolder;
+}
+
+.navbar {
+  top: 0px;
+  width: 100%;
 }
 
 .scroll-nav {

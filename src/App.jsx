@@ -1,27 +1,22 @@
 import React from "react";
-import About from "./components/About";
-import Footer from "./components/Footer";
 import Nav from "./components/Nav";
-import Projects from "./components/Projects";
+import About from "./components/About";
 import Tech from "./components/Technologies";
-import background from "./assets/img/background.jpg"
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+
 
 export default function MyApp() {
   return (
     <>
-    <div style={{ 
-      backgroundImage: `url(${background})`,
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-      height: "auto",
-      width: "100vw",
-      }}>
         <Nav />
         <About />
         <Tech />
         <Projects />
+        <Contact />
         <Footer />
-       </div>
     </>
   );
 }

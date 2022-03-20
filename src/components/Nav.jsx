@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/img/ar-logos_black.png";
 import profilePic from "../assets/img/profilepic.JPG";
-import Resume from "../assets/pdf/ar-resume.pdf"
+import Resume from "../assets/pdf/ar-resume.pdf";
 
 export default function Nav() {
   const [scrollState, setScrollState] = React.useState("");
@@ -44,27 +44,27 @@ export default function Nav() {
             <ul className="nav nav-pills">
               <li className="nav-item" onClick={collapse}>
                 <a className="nav-link" href="#about">
-                  About
+                  about
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
                 <a className="nav-link" href="#tech">
-                  Technologies
+                  technologies
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
                 <a className="nav-link" href="#projects">
-                  Projects
+                  projects
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
                 <a className="nav-link" href={Resume} target="_blank" rel="noreferrer">
-                  Resume
+                  resume
                 </a>
               </li>
               <li className="nav-item" onClick={collapse}>
                 <a className="nav-link" href="#contact">
-                  Contact Me
+                  contact me
                 </a>
               </li>
             </ul>
@@ -77,21 +77,21 @@ export default function Nav() {
             <div className="col-12">
               <img
                 src={profilePic}
-                className="rounded-circle mx-auto d-block p-3"
+                className="rounded-circle mx-auto d-block p-3 animate__animated animate__fadeIn animate__delay-0.5s"
                 alt="profile"
                 height="325"
                 width="325"
               />
-              <h1 className="display-5 text-center pt-3">
+              <h1 className="display-5 text-center pt-3 animate__animated animate__fadeIn animate__delay-1s">
                 My name is{" "}
                 <span className="name text-uppercase">Andrea Rumbaua.</span>
               </h1>
-              <p className="display-5 text-center pt-2">
+              <p className="display-5 text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
                 I'm a Full-Stack Developer based in the San Francisco Bay Area.
               </p>
               <div className="d-flex pt-4">
                 <a
-                  className="work btn border border-dark btn-lg text-uppercase mx-auto"
+                  className="work btn border border-dark btn-lg text-uppercase mx-auto  animate__animated animate__fadeIn animate__delay-3s"
                   href="#projects"
                   role="button"
                 >

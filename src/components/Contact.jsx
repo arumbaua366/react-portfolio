@@ -8,9 +8,9 @@ import mediumImage from "../assets/icons/medium.png";
 export default function Contact() {
   return (
     <>
-      <div id="contact" className="section scrollspy h-100 p-5 m-5">
+      <div id="contact" className="section scrollspy h-100 pt-5 mt-5">
         <div className="container-fluid bg-transparent mb-4">
-          <h1 className="title text-center display-5 p-4 m-5">contact.</h1>
+        <h1 className="title text-center display-5 text-black mb-4">contact.</h1>
           <div className="text-center">
             <div className="contact-box">
               <a

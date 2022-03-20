@@ -79,7 +79,7 @@ export default function Nav() {
                 src={profilePic}
                 className="img-fluid rounded-circle mx-auto d-block p-3 animate__animated animate__fadeIn animate__delay-0.5s"
                 alt="profile"
-                height="auto"
+                height="250"
                 width="auto"
               />
               <h1 className="display-6 text-center pt-3 animate__animated animate__fadeIn animate__delay-1s">

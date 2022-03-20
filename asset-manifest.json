@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/arumbaua366.github.io/react-portfolio/static/css/main.8512c80c.css",
-    "main.js": "/arumbaua366.github.io/react-portfolio/static/js/main.0a7df7b5.js",
+    "main.css": "/arumbaua366.github.io/react-portfolio/static/css/main.08d02b7b.css",
+    "main.js": "/arumbaua366.github.io/react-portfolio/static/js/main.95a44e01.js",
+    "static/media/quizpyss.png": "/arumbaua366.github.io/react-portfolio/static/media/quizpyss.57f9d904b3846e73f24f.png",
     "static/media/background.jpg": "/arumbaua366.github.io/react-portfolio/static/media/background.f70cbaa8487431da44df.jpg",
-    "static/media/ar-resume.pdf": "/arumbaua366.github.io/react-portfolio/static/media/ar-resume.da754398563d14640fb7.pdf",
+    "static/media/readmegenss.png": "/arumbaua366.github.io/react-portfolio/static/media/readmegenss.fc4c951cf22eb38401d4.png",
+    "static/media/weatherdashss.png": "/arumbaua366.github.io/react-portfolio/static/media/weatherdashss.c51fc7385035bb86884a.png",
+    "static/media/ar-resume.pdf": "/arumbaua366.github.io/react-portfolio/static/media/ar-resume.38e7cf904aab7b54a4a2.pdf",
+    "static/media/ar-logos_black.png": "/arumbaua366.github.io/react-portfolio/static/media/ar-logos_black.5247d250bbd79e150cc6.png",
     "static/media/react.png": "/arumbaua366.github.io/react-portfolio/static/media/react.60d8ea84b68a541cbb61.png",
-    "static/media/ar-logos_black.png": "/arumbaua366.github.io/react-portfolio/static/media/ar-logos_black.eb3132b3d2f610e9a170.png",
     "static/media/mysql.png": "/arumbaua366.github.io/react-portfolio/static/media/mysql.bb8b30e88adf9019ffb1.png",
     "static/media/profilepic.JPG": "/arumbaua366.github.io/react-portfolio/static/media/profilepic.770b815176a03cb7f437.JPG",
+    "static/media/github.png": "/arumbaua366.github.io/react-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/twitter.png": "/arumbaua366.github.io/react-portfolio/static/media/twitter.67ad063d90a28a5bdecc.png",
+    "static/media/medium.png": "/arumbaua366.github.io/react-portfolio/static/media/medium.d06d71a245db0137e2b2.png",
+    "static/media/email.png": "/arumbaua366.github.io/react-portfolio/static/media/email.67bda94140af311d041f.png",
+    "static/media/linkedin.png": "/arumbaua366.github.io/react-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/arumbaua366.github.io/react-portfolio/index.html",
-    "main.8512c80c.css.map": "/arumbaua366.github.io/react-portfolio/static/css/main.8512c80c.css.map",
-    "main.0a7df7b5.js.map": "/arumbaua366.github.io/react-portfolio/static/js/main.0a7df7b5.js.map"
+    "main.08d02b7b.css.map": "/arumbaua366.github.io/react-portfolio/static/css/main.08d02b7b.css.map",
+    "main.95a44e01.js.map": "/arumbaua366.github.io/react-portfolio/static/js/main.95a44e01.js.map"
   },
   "entrypoints": [
-    "static/css/main.8512c80c.css",
-    "static/js/main.0a7df7b5.js"
+    "static/css/main.08d02b7b.css",
+    "static/js/main.95a44e01.js"
   ]
 }

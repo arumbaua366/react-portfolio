@@ -112,7 +112,7 @@ code {
   font-size: 1rem;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1024px) {
   #navMain {
       text-align: center;
       padding: 0 0;
@@ -120,3 +120,14 @@ code {
       border-radius: 6px;
   }
 }
+
+
+@media only screen and (max-width: 1024px) {
+  .lead{
+    font-size: 20px;
+      padding: 0 0;
+      margin: 15px 0;
+      border-radius: 6px;
+  }
+}
+

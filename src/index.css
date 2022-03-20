@@ -14,12 +14,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+}
+
 a.nav-link {
   color: black;
 }
 
 .title,
-.card-link {
+.card-link
+.footer-copyright,
+.footer-a {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
@@ -46,7 +53,7 @@ a.nav-link {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 .feature-block {
@@ -64,6 +71,12 @@ code {
   font-size: 20px;
   padding: 1em 1.5em;
 }
+
+
+#about {
+  opacity: 80%;
+}
+
 .work:hover {
   color:rgb(29, 29, 29);
   font-weight: bolder;
@@ -82,8 +95,21 @@ code {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
 
-#about {
-  opacity: 80%;
+.email-link {
+  text-align: center;
+  font-size: 20px;
+  margin: 1em 1em
+}
+
+.footer-a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-copyright,
+.footer-a {
+  font-weight: bolder;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 990px) {

@@ -11,8 +11,6 @@ import reactImage from "../assets/icons/react.png";
 export default function Tech() {
   return (
     <>
-    {/* <div id="tech" className="section scrollspy p-4 m-4">
-    <h1 classNameName="text-center display-5 p-4 m-5">technologies.</h1> */}
     <div id="tech" className="section scrollspy h-100 p-5 m-5">
         <div className="container text-center display-5 pt-4 mt-5">
               <div className="row">

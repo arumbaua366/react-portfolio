@@ -4,10 +4,10 @@ export default function About() {
   return (
     <>
       <div id="about" className="section scrollspy h-100 p-5 m-5">
-        <div className="container-fluid d-flex bg-light card mb-4">
-          <div className="row-md-6 row-xs-12">
+        <div className="container-fluid bg-light card mb-4">
+          <div className="row">
             <div className="card-body">
-            <h1 className="title text-center display-5 text-black pt-5 mb-4">about.</h1>
+            <h1 className="title text-center display-5 text-black pt-5">about.</h1>
               <p className="lead fw-light m-5">
                 Self-motivated, voluntary learner devoted to the lifelong
                 pursuit of knowledge. Although my 8+ years of professional

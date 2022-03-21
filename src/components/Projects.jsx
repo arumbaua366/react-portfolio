@@ -6,10 +6,9 @@ import projectThree from "../assets/img/readmegenss.png";
 export default function Projects() {
   return (
     <>
-    <div className="pt-5">
-      <div id="projects" className="section scrollspy h-100 pt-5 m-5">
-      <h1 className="title text-center display-5 text-black py-5">projects.</h1>
-        <div className="container-fluid bg-transparent card mb-5">
+      <div id="projects" className="section scrollspy h-100 p-5 m-5">
+      <h1 className="title text-center display-5 text-black mb-4">projects.</h1>
+        <div className="container-fluid bg-transparent card mb-4">
           <div className="row g-0">
             <div className="col-md-6 col-xs-12 img-thumbnail bg-transparent">
               <img src={projectOne} className="card-img" alt="weatherdashimg" />
@@ -119,7 +118,6 @@ export default function Projects() {
             </div>
           </div>
         </div> */}
-        </div>
       </div>
     </>
   );

@@ -11,10 +11,10 @@ export default function Contact() {
     <div className="p-5 my-5">
       <div id="contact" className="section scrollspy h-100">
         <div className="container-fluid bg-transparent mb-5">
-        <h1 className="title text-center display-5 text-black mb-5">contact.</h1>
+        <h1 className="title text-center display-5 text-black mb-2">contact.</h1>
           <div className="text-center">
-              <h3>For more information, please checkout my <span>resume</span></h3>
-            <div className="contact-box">
+              <h5 className="justify-content-center text-wrap fw-light pt-5 mx-3">For more information, please checkout my <span className="name">resume</span> or click on the links below.</h5>
+            <div className="contact-box pt-4">
               <a
                 href="mailto: andrea.rumbaua@gmail.com"
                 className="contact-link"

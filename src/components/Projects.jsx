@@ -6,7 +6,7 @@ import projectThree from "../assets/img/readmegenss.png";
 export default function Projects() {
   return (
     <>
-      <div id="projects" className="section scrollspy h-100 p-5 m-5">
+      <div id="projects" className="section scrollspy h-100 py-5 m-5">
       <h1 className="title text-center display-5 text-black pt-5 mb-4">projects.</h1>
         <div className="container-fluid bg-transparent card mb-4">
           <div className="row g-0">

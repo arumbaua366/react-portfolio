@@ -86,9 +86,9 @@ export default function Nav() {
                 My name is{" "}
                 <span className="name text-uppercase">Andrea Rumbaua.</span>
               </h1>
-              <h2 className="intro text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
+              <p className="intro text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
                 I'm a Full-Stack Developer based in the San Francisco Bay Area.
-              </h2>
+              </p>
               <div className="d-flex pt-4">
                 <a
                   className="work btn border border-dark btn-md text-uppercase mx-auto  animate__animated animate__fadeIn animate__delay-3s"

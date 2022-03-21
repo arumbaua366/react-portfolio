@@ -13,6 +13,7 @@ export default function Contact() {
         <div className="container-fluid bg-transparent mb-5">
         <h1 className="title text-center display-5 text-black mb-5">contact.</h1>
           <div className="text-center">
+              <h3>For more information, please checkout my <span>resume</span></h3>
             <div className="contact-box">
               <a
                 href="mailto: andrea.rumbaua@gmail.com"

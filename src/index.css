@@ -14,11 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.contact-box {
-  display: flex;
-  justify-content: space-between;
-}
-
 a.nav-link {
   color: black;
 }
@@ -37,7 +32,6 @@ a.nav-link {
 .card-link {
   height: 100%;
   width: 100%;
-  font-size: large;
   text-decoration: none;
   color: black;
 }
@@ -47,7 +41,6 @@ a.nav-link {
 }
 
 .card-text {
-  font-size: 20px;
   margin: 1em 1em
 }
 
@@ -68,7 +61,6 @@ code {
 }
 
 .work {
-  font-size: 20px;
   padding: 1em 1.5em;
 }
 
@@ -98,7 +90,12 @@ code {
 .email-link {
   text-align: center;
   font-size: 20px;
-  margin: 1em 1em
+  margin: 0em 0em
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer-a {
@@ -112,6 +109,16 @@ code {
   font-size: 1rem;
 }
 
+h1,
+h3,
+h5,
+p, 
+.img,
+.nav-link {
+  font-size: 20px;
+  font-size: 3vw;
+}
+
 @media only screen and (max-width: 990px) {
   #navMain {
       text-align: center;
@@ -122,12 +129,4 @@ code {
 }
 
 
-@media only screen and (max-width: 990px) {
-  .lead{
-    font-size: 20px;
-      padding: 0 0;
-      margin: 15px 0;
-      border-radius: 6px;
-  }
-}
 

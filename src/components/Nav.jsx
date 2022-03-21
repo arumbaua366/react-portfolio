@@ -7,7 +7,7 @@ export default function Nav() {
   const [scrollState, setScrollState] = React.useState("");
 
   const collapse = () => {
-    let element = document.getElementByID("navMain");
+    let element = document.getElementById("navMain");
     element.classList.remove("show");
   };
   React.useEffect(() => {

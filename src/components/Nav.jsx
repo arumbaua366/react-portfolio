@@ -24,7 +24,7 @@ export default function Nav() {
   
   return (
     <>
-      <nav className={`navbar navbar-expand-sm sticky-top navbar-light bg-gradient animate__animated animate__fadeIn animate__faster bs-bg-opacity px-3 ${scrollState}`}>
+      <nav className={`navbar navbar-expand-sm no-wrap sticky-top navbar-light bg-gradient animate__animated animate__fadeIn animate__faster bs-bg-opacity px-2 ${scrollState}`}>
         <div className="container">
           <a className="navbar-brand" href="#top">
             <img src={logo} alt="my-logo" height="50" width="50" />
@@ -73,7 +73,7 @@ export default function Nav() {
       </nav>
       <div id="top" className="header bg pt-5 m-5">
         <div className="container mt-5">
-          <div className="row pb-5">
+          <div className="row pb-4">
             <div className="col-12 position-relative">
               <img
                 src={profilePic}
@@ -82,16 +82,16 @@ export default function Nav() {
                 height="auto"
                 width="275"
               />
-              <h1 className="display-6 text-center pt-3 animate__animated animate__fadeIn animate__delay-1s">
+              <h1 className="intro text-center pt-3 animate__animated animate__fadeIn animate__delay-1s">
                 My name is{" "}
                 <span className="name text-uppercase">Andrea Rumbaua.</span>
               </h1>
-              <p className="display-6 text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
+              <h2 className="intro text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
                 I'm a Full-Stack Developer based in the San Francisco Bay Area.
-              </p>
+              </h2>
               <div className="d-flex pt-4">
                 <a
-                  className="work btn border border-dark btn-lg text-uppercase mx-auto  animate__animated animate__fadeIn animate__delay-3s"
+                  className="work btn border border-dark btn-md text-uppercase mx-auto  animate__animated animate__fadeIn animate__delay-3s"
                   href="#projects"
                   role="button"
                 >

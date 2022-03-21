@@ -19,6 +19,7 @@ a.nav-link {
 }
 
 .title,
+.intro,
 .card-link
 .footer-copyright,
 .footer-a {
@@ -53,6 +54,11 @@ code {
   max-width: 150px;
   max-height: 150px;
   padding-bottom: 25px;
+}
+
+#projects {
+  max-width: 100%;
+  max-height: auto
 }
 
 .feature-block {
@@ -117,10 +123,27 @@ h5,
   font-size: 4vw;
 }
 
+
+h1 {
+  font-size: 3.9vw;
+}
+
+h2 {
+  font-size: 3.0vh;
+}
+
+h5 {
+  font-size: 4.0vh;
+}
+
 p,
-.nav-link
- {
-  font-size: 2.5vw;
+.nav-link {
+  font-size: 3vmin;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 @media only screen and (max-width: 990px) {
@@ -131,6 +154,5 @@ p,
       border-radius: 6px;
   }
 }
-
 
 

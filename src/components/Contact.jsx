@@ -4,6 +4,7 @@ import ghImage from "../assets/icons/github.png";
 import lnImage from "../assets/icons/linkedin.png";
 import twitterImage from "../assets/icons/twitter.png";
 import mediumImage from "../assets/icons/medium.png";
+import Resume from "../assets/pdf/ar-resume.pdf"
 
 export default function Contact() {
   return (
@@ -13,7 +14,8 @@ export default function Contact() {
         <div className="container-fluid bg-transparent mb-5">
         <h1 className="title text-center display-5 text-black mb-2">contact.</h1>
           <div className="text-center">
-              <h5 className="justify-content-center text-wrap fw-light pt-5 mx-3">For more information, please checkout my <span className="name">resume</span> or click on the links below.</h5>
+              <h5 className="justify-content-center text-wrap fw-light pt-5 mx-3">For more information, please checkout my <a className="resume name" href={Resume} target="_blank" rel="noreferrer"> resume
+                </a> or click on the links below.</h5>
             <div className="contact-box pt-4">
               <a
                 href="mailto: andrea.rumbaua@gmail.com"

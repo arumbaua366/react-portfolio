@@ -4,15 +4,19 @@ import ghImage from "../assets/icons/github.png";
 import lnImage from "../assets/icons/linkedin.png";
 import twitterImage from "../assets/icons/twitter.png";
 import mediumImage from "../assets/icons/medium.png";
+import Resume from "../assets/pdf/ar-resume.pdf"
 
 export default function Contact() {
   return (
     <>
-      <div id="contact" className="section scrollspy h-100 p-5 m-5">
-        <div className="container-fluid bg-transparent mb-4">
-          <h1 className="title text-center display-5 p-4 m-5">contact.</h1>
+    <div className="p-5 my-5">
+      <div id="contact" className="section scrollspy h-100">
+        <div className="container-fluid bg-transparent mb-5">
+        <h1 className="title text-center display-5 text-black mb-2">contact.</h1>
           <div className="text-center">
-            <div className="contact-box">
+              <h5 className="justify-content-center text-wrap fw-light pt-5 mx-3">For more information, please checkout my <a className="resume name" href={Resume} target="_blank" rel="noreferrer"> resume
+                </a> or click on the links below.</h5>
+            <div className="contact-box pt-4">
               <a
                 href="mailto: andrea.rumbaua@gmail.com"
                 className="contact-link"
@@ -90,6 +94,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

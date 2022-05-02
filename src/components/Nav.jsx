@@ -87,7 +87,7 @@ export default function Nav() {
                 <span className="name text-uppercase">Andrea Rumbaua.</span>
               </h1>
               <p className="display-6 text-center pt-2 animate__animated animate__fadeIn animate__delay-2s">
-                I'm a Full-Stack Developer based in the San Francisco Bay Area.
+                I'm a Junior Software Developer based in the San Francisco Bay Area.
               </p>
               <div className="d-flex pt-4">
                 <a

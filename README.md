@@ -1,6 +1,6 @@
 # React Portfolio
 
-![portfoliogif](/src/assets/img/portfoliogif1.gif)
+![portfoliogif](/src/assets/img/portfoliogif3.gif)
 
 ## About
 - A personal porfolio built with React using Bootstrap for styling and Animate.css for text animation.
